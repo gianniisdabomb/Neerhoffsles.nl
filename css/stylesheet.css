@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, p, table{
+    font-family: "Helvetica", sans-serif;
+}
+
+h2{
+    font-size: 13pt;
+	text-align: center;
+}
+#nav-border{
+    position: relative;
+    height: 70.400px;
+}
+
+#navigation{
+    z-index: 3;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 2px 3px rgba(0,0,0,.4);
+    background-color: #fff;
+}
+
+#navigation a img{
+    height: 80%;
+    float: left;
+    z-index: 3;
+    position: relative;
+    top: 0.4em;
+    margin: 0 1em;
+}
+#burger-container{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: fit-content;
+    list-style: none;
+    float: right;
+}
+
+#burgermenu{
+    float: right;
+    width: 2.5em;
+    margin: 52%;
+}
+#burgermenu div{
+    background-color: #000;
+    padding: 0.2em;
+    margin: 0.3em 0;
+    border-radius: 1em;
+}
+
+#nav-container{
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    display: none;
+}
+
+#nav-container li, #nav-container a li{
+    width: auto;
+    float: left;
+    height: 4em;
+}
+
+#nav-container a li span{
+    text-decoration: none;
+    color: #000;
+    top: 40%;
+    font-family: Helvetica;
+    margin: 0 0 0 1em;
+    position: relative;
+}
+
+@media screen and (min-width: 820px){
+    p{
+        font-size: 14pt;
+    }
+
+    #navigation{
+        height: 3.4em;
+    }
+
+    #nav-border{
+        height: 50.400px
+    }
+
+    #burger-container{
+        display: none;
+    }
+
+    #nav-container{
+        margin: 0;
+        display: block;
+        height: 100%;
+        position: relative;
+    }
+
+    #nav-container a li{
+        height: 100%;
+        padding: 0 1em;
+    }
+
+    #nav-container a li span{
+        font-size: 12pt;
+        margin: 0;
+        position: relative;
+        top: 33%;
+    }
+
+    #nav-container #float-right{
+        float: right;
+    }
+
+    #display-desktop{
+        display: block;
+    }
+
+    #display-mobile{
+        display: none;
+    }
+
+    #nav-container a li:hover{
+        background: #D3D3D3;
+    }
+
+    #developer-info{
+        font-size: 11pt;
+    }
+}
+
+@media screen and (max-width: 820px){
+    p{
+        font-size: 12pt;
+    }
+    #navigation{
+        height: 5em;
+    }
+
+    #display-desktop{
+        display: none;
+    }
+    
+    #display-mobile{
+        display: block;
+    }
+
+    #nav-container{
+        margin: 5em 0;
+        position: absolute;
+    }
+
+    #nav-container a li{
+        width: 100%;
+        background-color: #fff;
+    }
+
+    #developer-info{
+        font-size: 10pt;
+    }
+}
+
+#nav-container #current-page{
+    background-color: #4286f4;
+}
+
+#content{
+    z-index: 2;
+    position: relative;
+}
+
+#placeholder{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#footer{
+    bottom: 0;
+    width: 100%;
+}
+
+#developer-info{
+    width: fit-content;
+    margin: auto;
+    font-family: Apple Chancery, monospace;
+}
+
+#developer-info a{
+    color: #4286f4;
+    text-decoration: none;
+}
