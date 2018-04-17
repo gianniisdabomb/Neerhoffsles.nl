@@ -60,11 +60,15 @@ h2{
 
 #nav-container a li span{
     text-decoration: none;
-    color: rgb(240, 238, 238);
+    color: #000;
     top: 40%;
     font-family: Helvetica;
     margin: 0 0 0 1em;
     position: relative;
+}
+
+#nav-container a #current-page span{
+    color: #fff;
 }
 
 @media screen and (min-width: 820px){
@@ -97,6 +101,7 @@ h2{
     }
 
     #nav-container a li span{
+        color: #fff;
         font-size: 15pt;
         margin: 0;
         position: relative;
@@ -135,13 +140,18 @@ h2{
         padding: 1.5em 0;
     }
 
+    #nav-container a span{
+        color: #fff;
+    }
+
     #developer-info{
         font-size: 10pt;
     }
 }
 
 #nav-container #current-page{
-    background-color: #4286f4;
+    background-color: #3e6bca;
+    color: #fff;
 }
 
 #content{
