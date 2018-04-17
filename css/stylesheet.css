@@ -24,14 +24,6 @@ h2{
     background-color: #fff;
 }
 
-#navigation a img{
-    height: 80%;
-    float: left;
-    z-index: 3;
-    position: relative;
-    top: 0.4em;
-    margin: 0 1em;
-}
 #burger-container{
     margin: 0;
     padding: 0;
@@ -58,17 +50,17 @@ h2{
     list-style: none;
     width: 100%;
     display: none;
+    background-color: #4286f4;
 }
 
 #nav-container li, #nav-container a li{
     width: auto;
     float: left;
-    height: 4em;
 }
 
 #nav-container a li span{
     text-decoration: none;
-    color: #000;
+    color: rgb(240, 238, 238);
     top: 40%;
     font-family: Helvetica;
     margin: 0 0 0 1em;
@@ -81,7 +73,7 @@ h2{
     }
 
     #navigation{
-        height: 3.4em;
+        height: 4em;
     }
 
     #nav-border{
@@ -105,7 +97,7 @@ h2{
     }
 
     #nav-container a li span{
-        font-size: 12pt;
+        font-size: 15pt;
         margin: 0;
         position: relative;
         top: 33%;
@@ -115,16 +107,8 @@ h2{
         float: right;
     }
 
-    #display-desktop{
-        display: block;
-    }
-
-    #display-mobile{
-        display: none;
-    }
-
     #nav-container a li:hover{
-        background: #D3D3D3;
+        background: #356dc9;
     }
 
     #developer-info{
@@ -136,26 +120,19 @@ h2{
     p{
         font-size: 12pt;
     }
+
     #navigation{
         height: 5em;
     }
 
-    #display-desktop{
-        display: none;
-    }
-    
-    #display-mobile{
-        display: block;
-    }
-
     #nav-container{
-        margin: 5em 0;
-        position: absolute;
+        margin: 0;
     }
 
     #nav-container a li{
         width: 100%;
         background-color: #fff;
+        padding: 1.5em 0;
     }
 
     #developer-info{
@@ -170,11 +147,6 @@ h2{
 #content{
     z-index: 2;
     position: relative;
-}
-
-#placeholder{
-    width: fit-content;
-    margin: 0 auto;
 }
 
 #footer{
