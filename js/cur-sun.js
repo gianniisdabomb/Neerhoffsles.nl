@@ -17,8 +17,13 @@ async function CurrentSun(){
     const json = await res.json();
     const sun = json.buienradarnl.weergegevens.actueel_weer.weerstations.weerstation[1].zonintensiteitWM2
 
-    sunspan.innerHTML = sun + ' Watt per M2';
-    curprice.innerHTML = '€ ' + Math.round(sun * 0.3) + ' per uur';
+    if (sun == '-'){
+        sunspan.innerHTML = 'te weinig zon';
+    }
+    else{
+        sunspan.innerHTML = sun + ' Watt per M2';
+        curprice.innerHTML = '€ ' + Math.round(sun * 0.3) + ' per uur';
+    }
 }
 
     
