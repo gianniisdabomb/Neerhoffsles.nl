@@ -177,6 +177,7 @@ h2{
 
     #content{
         top: 5em;
+        height: 70em;
     }
 
     #developer-info{
@@ -199,4 +200,9 @@ h2{
     z-index: 1;
     width: 100%;
     filter: grayscale(70%);
+}
+
+#moving-sun img{
+    width: 5em;
+    position: absolute;
 }
