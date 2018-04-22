@@ -22,7 +22,7 @@ async function CurrentSun(){
     }
     else{
         sunspan.innerHTML = sun + ' Watt per M2';
-        curprice.innerHTML = '€ ' + Math.round(sun * 0.3) + ' per uur';
+        curprice.innerHTML = '€ ' + Math.round(sun * 0.2 * 0,25) + ' per uur';
     }
 }
 

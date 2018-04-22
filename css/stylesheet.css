@@ -168,11 +168,11 @@ h2, h3{
     }
 
     #moving-sun img{
-        width: 10%;
+        height: 5em;
     }
 
     #solarp{
-        width: 30%;
+        height: 10em;
         margin: 3em auto;
     }
 
@@ -227,11 +227,11 @@ h2, h3{
     }
 
     #moving-sun img{
-        width: 15%;
+        height: 5em;
     }
 
     #solarp{
-        width: 60%;
+        height: 13em;
         margin: 3em auto;
     }
 
