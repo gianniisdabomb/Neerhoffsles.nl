@@ -78,7 +78,6 @@ h2{
 #content{
     z-index: 2;
     position: relative;
-    height: 100em;
 }
 
 #footer{
@@ -169,6 +168,12 @@ h2{
 
     #solarp{
         width: 30%;
+        margin: 3em auto;
+    }
+
+    #current-sun{
+        text-align: center;
+        display: block;
     }
 }
 
@@ -220,6 +225,13 @@ h2{
 
     #solarp{
         width: 60%;
+        margin: 3em auto;
+    }
+
+    #current-sun{
+        text-align: center;
+        display: block;
+        font-size: 14pt;
     }
 }
 
@@ -244,10 +256,9 @@ h2{
 }
 
 #moving-sun{
-    margin: 3em;
+    margin: 3em 0;
 }
 
 #solarp{
-    margin: 0 auto;
     display: block;
 }

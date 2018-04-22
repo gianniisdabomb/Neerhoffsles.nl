@@ -10,13 +10,13 @@ function setSunPosition(){
 
 CurrentSun();
   
-async function CurrentSunIntensity(){
-    const temp_span = document.getElementById('current-temp');
+async function CurrentSun(){
+    const sunspan = document.getElementById('current-sun');
     const res = await fetch('https://api.buienradar.nl/data/public/1.1/jsonfeed');
     const json = await res.json();
-    const temp = json.buienradarnl.weergegevens.actueel_weer.weerstations.weerstation[1].temperatuurGC
+    const sun = json.buienradarnl.weergegevens.actueel_weer.weerstations.weerstation[1].zonintensiteitWM2
 
-    temp_span.getElementsByTagName('span')[0].innerHTML = temp + ' C';
+    sunspan.innerHTML = sun + ' Watt per M2';
 }
 
     
