@@ -3,8 +3,14 @@ body{
     padding: 0;
 }
 
-h1, h2, p, table{
+h1, h2, p, table, li{
     font-family: "Helvetica", sans-serif;
+}
+
+p{
+    max-width: 50em;
+    margin: 3em auto;
+    padding: 0 2em;
 }
 
 h2{
@@ -103,10 +109,6 @@ h2{
         font-size: 16pt;
     }
 
-    p{
-        margin: 3em;
-    }
-
     #navigation{
         height: 4em;
     }
@@ -176,16 +178,15 @@ h2{
         text-align: center;
         display: block;
     }
+
+    #header-text h1{
+        font-size: 40pt;
+    }
 }
 
 @media screen and (max-width: 820px){
     h2{
         font-size: 18pt;
-    }
-    p{
-        margin: 3em auto;
-        max-width: 50em;
-        padding: 0 3em;
     }
 
     #navigation{
@@ -236,16 +237,28 @@ h2{
         display: block;
         font-size: 14pt;
     }
+
+    #header-text h1{
+        font-size: 20pt;
+    }
 }
 
-#header h1{
+#header{
+    position: relative;
+}
+
+#header-text{
     position: absolute;
-    font-size: 20pt;
     z-index: 2;
-    color: #fff;
-    text-shadow: 0.1em 0.1em 0.1em #000;
-    text-align: center;
     width: 100%;
+    bottom: 50%;
+}
+
+#header-text h1{
+    width: fit-content;
+    margin: 0 auto;
+    color: #fff;
+    text-shadow: 3px 4px #000;
 }
 
 #header img{
