@@ -10,7 +10,8 @@ function setSunPosition(){
         try{
             sun.style['-webkit-transform'] = 'translateX(' + (document.documentElement.scrollTop - 250) + '%)';
         }
-        catch{
+        catch(error)
+        {
             sun.style.margin = '0 auto';
         }
     }
