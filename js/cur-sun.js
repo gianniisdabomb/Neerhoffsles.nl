@@ -8,4 +8,5 @@ window.addEventListener('scroll', () =>{
 
 function setSunPosition(){
     sun.style.transform = 'translateX(' + document.documentElement.scrollTop + '%)';
+    sun.style.webkitTransform = 'translateX(' + document.documentElement.scrollTop + '%)';
 }
