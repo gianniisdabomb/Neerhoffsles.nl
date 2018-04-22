@@ -202,7 +202,15 @@ h2{
     filter: grayscale(70%);
 }
 
+#cur-sun-energie{
+    padding: 1em 0;
+}
+
 #moving-sun img{
     width: 5em;
     position: absolute;
+}
+
+#solarp{
+    height: 20em;
 }
