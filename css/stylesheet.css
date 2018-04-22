@@ -8,7 +8,6 @@ h1, h2, p, table{
 }
 
 h2{
-    font-size: 13pt;
 	text-align: center;
 }
 #nav-border{
@@ -67,11 +66,11 @@ h2{
     position: relative;
 }
 
-#nav-container a #current-page span{
+#nav-container a .current-page span{
     color: #fff;
 }
 
-#nav-container #current-page{
+#nav-container .current-page{
     background-color: #3e6bca;
     color: #fff;
 }
@@ -99,6 +98,10 @@ h2{
 }
 
 @media screen and (min-width: 820px){
+    h2{
+        font-size: 16pt;
+    }
+
     p{
         font-size: 14pt;
     }
@@ -150,9 +153,28 @@ h2{
     #developer-info{
         font-size: 11pt;
     }
+
+    .desktop{
+        display: block;
+    }
+
+    .mobile{
+        display: none;
+    }
+
+    #moving-sun img{
+        width: 10%;
+    }
+
+    #solarp{
+        width: 30%;
+    }
 }
 
 @media screen and (max-width: 820px){
+    h2{
+        font-size: 18pt;
+    }
     p{
         font-size: 12pt;
     }
@@ -183,6 +205,22 @@ h2{
     #developer-info{
         font-size: 10pt;
     }
+
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    #moving-sun img{
+        width: 15%;
+    }
+
+    #solarp{
+        width: 60%;
+    }
 }
 
 #header h1{
@@ -193,7 +231,6 @@ h2{
     text-shadow: 0.1em 0.1em 0.1em #000;
     text-align: center;
     width: 100%;
-    top: 2.8em;
 }
 
 #header img{
@@ -203,14 +240,14 @@ h2{
 }
 
 #cur-sun-energie{
-    padding: 1em 0;
+    margin: 1em 0;
 }
 
-#moving-sun img{
-    width: 5em;
-    position: absolute;
+#moving-sun{
+    margin: 3em;
 }
 
 #solarp{
-    height: 20em;
+    margin: 0 auto;
+    display: block;
 }
