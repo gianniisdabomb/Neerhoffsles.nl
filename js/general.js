@@ -1,8 +1,6 @@
 FitNavigation();
 footer();
 
-
-alert('omin fout');
 window.addEventListener('resize', () =>{
     footer();
 });
