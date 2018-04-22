@@ -23,7 +23,6 @@ h2{
 
 #navigation{
     z-index: 3;
-    position: absolute;
     width: 100%;
     box-shadow: 0 2px 3px rgba(0,0,0,.4);
     background-color: #fff;
@@ -149,10 +148,6 @@ h2{
         background: #356dc9;
     }
 
-    #content{
-        top: 4em;
-    }
-
     #developer-info{
         font-size: 11pt;
     }
@@ -191,6 +186,7 @@ h2{
 
     #navigation{
         height: 5em;
+        position: absolute;
     }
 
     #nav-container{
@@ -240,6 +236,11 @@ h2{
 
     #header-text h1{
         font-size: 20pt;
+    }
+
+    #test h2:first-child{
+        margin: 0;
+        padding: 1em 0 0;
     }
 }
 
