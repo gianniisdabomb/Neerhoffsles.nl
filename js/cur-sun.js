@@ -7,7 +7,12 @@ window.addEventListener('scroll', () =>{
 function setSunPosition(){
     console.log(document.documentElement.scrollTop);
     if (document.documentElement.scrollTop > 250 && document.documentElement.scrollTop < document.documentElement.clientWidth + 200){
-        sun.style['-webkit-transform'] = 'translateX(' + (document.documentElement.scrollTop - 250) + '%)';
+        try{
+            sun.style['-webkit-transform'] = 'translateX(' + (document.documentElement.scrollTop - 250) + '%)';
+        }
+        catch{
+            sun.style.margin = '0 auto';
+        }
     }
 }
 
