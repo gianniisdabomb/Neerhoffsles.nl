@@ -16,6 +16,13 @@ p{
 h2{
 	text-align: center;
 }
+
+ul{
+    max-width: 45em;
+    margin: 0 auto;
+    padding: 0px 4em;
+}
+
 #nav-border{
     position: relative;
     height: 70.400px;
