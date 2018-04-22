@@ -5,7 +5,10 @@ window.addEventListener('scroll', () =>{
 });
 
 function setSunPosition(){
-    sun.style.transform = 'translateX(' + document.documentElement.scrollTop * 1.2 + '%)';
+    console.log(document.documentElement.scrollTop);
+    if (document.documentElement.scrollTop > 250 && document.documentElement.scrollTop < document.documentElement.clientWidth + 200){
+        sun.style.webkitTransform = 'translateX(' + (document.documentElement.scrollTop - 250) + '%)';
+    }
 }
 
 CurrentSun();
