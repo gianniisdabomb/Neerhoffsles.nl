@@ -78,6 +78,7 @@ h2{
 #content{
     z-index: 2;
     position: relative;
+    height: 100em;
 }
 
 #footer{
@@ -199,7 +200,6 @@ h2{
 
     #content{
         top: 5em;
-        height: 70em;
     }
 
     #developer-info{
