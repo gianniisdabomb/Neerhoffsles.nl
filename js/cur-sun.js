@@ -7,11 +7,5 @@ window.addEventListener('scroll', () =>{
 });
 
 function setSunPosition(){
-    sun.animate([
-        { transform: 'translateX(' + document.documentElement.scrollTop + '%)' }, 
-        { transform: 'translateX(' + document.documentElement.scrollTop + '%)' }
-      ], { 
-        duration: 1000,
-        iterations: Infinity
-      });
+    sun.style.transform = 'translateX(' + document.documentElement.scrollTop + '%)';
 }
