@@ -6,9 +6,9 @@ window.addEventListener('scroll', () =>{
 
 function setSunPosition(){
     console.log(document.documentElement.scrollTop);
-    if (document.documentElement.scrollTop > 250 && document.documentElement.scrollTop < document.documentElement.clientWidth + 200){
+    if (document.documentElement.scrollTop > 250 && document.documentElement.scrollTop < 700){
         try{
-            sun.style['-webkit-transform'] = 'translateX(' + (document.documentElement.scrollTop - 250) + '%)';
+            sun.style['-webkit-transform'] = 'translateX(' + (document.documentElement.clientWidth / 40 + document.documentElement.scrollTop - 200) + '%)';
         }
         catch(error)
         {

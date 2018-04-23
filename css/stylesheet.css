@@ -280,7 +280,9 @@ h2, h3{
 }
 
 #moving-sun{
-    margin: 3em 0;
+    margin: 3em auto;
+    max-width: 50em;
+    width: 40%;
 }
 
 #solarp{
