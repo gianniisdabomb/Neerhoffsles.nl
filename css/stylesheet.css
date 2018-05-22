@@ -180,10 +180,6 @@ h2, h3{
         display: none;
     }
 
-    #moving-sun img{
-        height: 5em;
-    }
-
     #solarp{
         height: 10em;
         margin: 3em auto;
@@ -252,10 +248,6 @@ h2, h3{
         display: block;
     }
 
-    #moving-sun img{
-        height: 5em;
-    }
-
     #solarp{
         height: 10em;
         margin: 3em auto;
@@ -301,14 +293,15 @@ h2, h3{
     filter: grayscale(70%);
 }
 
-#cur-sun-energie{
-    margin: 1em 0;
+#sun{
+    height: 4em;
+    position: relative;
+    display: block;
+    margin: 0 auto;
 }
 
-#moving-sun{
-    margin: 3em auto;
-    max-width: 50em;
-    width: 40%;
+#cur-sun-energie{
+    margin: 1em 0;
 }
 
 #solarp{
