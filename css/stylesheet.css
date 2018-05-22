@@ -101,7 +101,7 @@ h2, h3{
 
 #developer-info span{
     text-align: center;
-    display: block;
+    display: inline-block;
     padding: 0 1em;
 }
 
