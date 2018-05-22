@@ -101,6 +101,7 @@ h2, h3{
 
 #developer-info span{
     text-align: center;
+    display: block;
 }
 
 #developer-info a{
