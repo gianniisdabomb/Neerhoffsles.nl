@@ -102,6 +102,7 @@ h2, h3{
 #developer-info span{
     text-align: center;
     display: block;
+    padding: 0 1em;
 }
 
 #developer-info a{
