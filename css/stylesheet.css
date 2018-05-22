@@ -7,12 +7,6 @@ h1, h2, p, table, li{
     font-family: "Helvetica", sans-serif;
 }
 
-p{
-    max-width: 50em;
-    margin: 3em auto;
-    padding: 0 2em;
-}
-
 h2, h3{
 	text-align: center;
 }
@@ -111,8 +105,21 @@ h2, h3{
 }
 
 @media screen and (min-width: 820px){
-    h2{
+    #content h1{
+        font-size: 18pt;
+        text-align: center;
+    }
+
+    #content h2{
         font-size: 16pt;
+        text-align: center;
+    }
+
+    #content p{
+        font-size: 12pt;
+        max-width: 50em;
+        margin: 1em auto;
+        padding: 0;
     }
 
     #navigation{
@@ -187,8 +194,21 @@ h2, h3{
 }
 
 @media screen and (max-width: 820px){
-    h2{
-        font-size: 18pt;
+    #content h1{
+        font-size: 16pt;
+        text-align: center;
+    }
+
+    #content h2{
+        font-size: 14pt;
+        text-align: center;
+    }
+
+    #content p{
+        font-size: 12pt;
+        max-width: 50em;
+        margin: 1em auto;
+        padding: 0 2em;
     }
 
     #navigation{
