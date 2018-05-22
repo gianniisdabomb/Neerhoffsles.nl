@@ -192,8 +192,7 @@ h2, h3{
     }
 
     #navigation{
-        height: 5em;
-        position: absolute;
+        position: relative;
     }
 
     #nav-container{
