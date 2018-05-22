@@ -193,11 +193,13 @@ h2, h3{
 
     #navigation{
         height: 5em;
-        position: absolute;
+        position: relative;
     }
 
     #nav-container{
         margin: 0;
+        position: absolute;
+        top: 5em;
     }
 
     #nav-container a li{
@@ -208,10 +210,6 @@ h2, h3{
 
     #nav-container a span{
         color: #fff;
-    }
-
-    #content{
-        top: 5em;
     }
 
     #developer-info{
