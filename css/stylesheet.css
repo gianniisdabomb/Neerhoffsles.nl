@@ -201,11 +201,13 @@ h2, h3{
     #content h1{
         font-size: 16pt;
         text-align: center;
+        padding: 0 2em;
     }
 
     #content h2{
         font-size: 14pt;
         text-align: center;
+        padding: 0 2em;
     }
 
     #content p{
