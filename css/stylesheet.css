@@ -199,7 +199,7 @@ h2, h3{
     #content h1{
         font-size: 16pt;
         text-align: center;
-        padding: 0 2em;
+        padding: 0 1em;
     }
 
     #content h2{
@@ -212,7 +212,7 @@ h2, h3{
         font-size: 12pt;
         max-width: 50em;
         margin: 1em auto;
-        padding: 0 1em;
+        padding: 0 2em;
     }
 
     #navigation{
