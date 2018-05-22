@@ -1,22 +1,3 @@
-const sun = document.getElementById('moving-sun').children[0];
-
-window.addEventListener('scroll', () =>{
-    setSunPosition();
-});
-
-function setSunPosition(){
-    console.log(document.documentElement.scrollTop);
-    if (document.documentElement.scrollTop > 250 && document.documentElement.scrollTop < 700){
-        try{
-            sun.style['-webkit-transform'] = 'translateX(' + (document.documentElement.clientWidth / 40 + document.documentElement.scrollTop - 200) + '%)';
-        }
-        catch(error)
-        {
-            sun.style.margin = '0 auto';
-        }
-    }
-}
-
 CurrentSun();
   
 async function CurrentSun(){
