@@ -27,6 +27,7 @@ h2, h3{
     width: 100%;
     box-shadow: 0 2px 3px rgba(0,0,0,.4);
     background-color: #fff;
+	position: relative;
 }
 
 #burger-container{
@@ -217,7 +218,6 @@ h2, h3{
 
     #navigation{
         height: 5em;
-        position: relative;
     }
 
     #nav-container{
